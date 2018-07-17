@@ -5,18 +5,29 @@
 
     <script type="text/javascript">
 
+    var age = 25;
+
     function first_function(x){
 
-        document.write(x + "階層的なファンクションの利用");
+      document.write("私は" + age +"歳です");
+      //document.write("<br />" + "私は" + age_1 +"歳です");
 
       }
 
-      function main_function(main_x){
-        first_function(main_x);
+      function main_function(){
+
+        var age_1 = 30;
+
+        document.write(age +"<br />" + age_1 +"<br />");
+
+        age = 27;
+
+
+        first_function();
 
       }
 
-      main_function("引数");
+      main_function();
 
 
     </script>
