@@ -5,29 +5,21 @@
 
     <script type="text/javascript">
 
-    var age = 25;
 
-    function first_function(x){
+    function first_function(){
 
-      document.write("私は" + age +"歳です");
-      //document.write("<br />" + "私は" + age_1 +"歳です");
+    var myouji ="おだわら";
+    var space =" ";
+    var name ="ゆづき"
+    var full_name = myouji + space + name
 
-      }
-
-      function main_function(){
-
-        var age_1 = 30;
-
-        document.write(age +"<br />" + age_1 +"<br />");
-
-        age = 27;
-
-
-        first_function();
+    return full_name;
 
       }
 
-      main_function();
+      var text = first_function();
+      document.write(text);
+
 
 
     </script>
