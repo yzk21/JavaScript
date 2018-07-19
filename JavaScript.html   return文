@@ -1,0 +1,35 @@
+<html>
+
+<head>
+    <title>Hello,world</title>
+
+    <script type="text/javascript">
+
+
+    function first_function(){
+
+    var myouji ="おだわら";
+    var space =" ";
+    var name ="ゆづき"
+    var full_name = myouji + space + name
+
+    return full_name;
+
+      }
+
+      var text = first_function();
+      document.write(text);
+
+
+
+    </script>
+
+</head>
+
+<body>
+
+
+</body>
+
+
+</html>

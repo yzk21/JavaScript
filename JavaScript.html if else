@@ -1,0 +1,37 @@
+<html>
+
+<head>
+    <title>Hello,world</title>
+
+    <script type="text/javascript">
+
+
+    function first_function(x){
+
+      var y = 2;
+
+    if ( x > y ){
+
+      document.write("条件にヒットしました")
+    }else {
+      document.write("条件に一致するものはありませんでした")
+
+    }
+      }
+
+    first_function(3);
+
+
+
+
+    </script>
+
+</head>
+
+<body>
+
+
+</body>
+
+
+</html>

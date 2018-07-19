@@ -1,0 +1,35 @@
+<html>
+
+<head>
+    <title>Hello,world</title>
+
+    <script type="text/javascript">
+
+    var tennsuu = ""
+
+    if (tennsuu > 60 ){
+
+      if (tennsuu < 80){
+        window.alert("点数は60点以上、さらに、80点以下です。");
+      } else {
+        window.alert("点数は60点以上、さらに、80点よりも大きいです。");
+        }
+      }　else {
+        window.alert("点数は60点よりも小さいです。");
+        }
+
+
+
+
+
+    </script>
+
+</head>
+
+<body>
+
+
+</body>
+
+
+</html>
