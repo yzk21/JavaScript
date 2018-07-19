@@ -5,13 +5,16 @@
 
     <script type="text/javascript">
 
-    var tennsuu = "80";
-    var name = "B";
+    var tennsuu = "4";
 
-    if ((tennsuu > 60 ) && (name == "A" )){
-        window.alert("点数は60点よりも大きい場合、かつ、受験者が「A」さん");
+    if (tennsuu > 60 ){
+        window.alert("点数は60点よりも大きい");
       } else {
+        if (tennsuu < 30 ){
+        window.alert("30点よりも小さい")
+      }else{
         window.alert("該当しませんでした");
+        }
         }
 
 
