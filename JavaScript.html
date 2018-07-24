@@ -5,9 +5,12 @@
 
     <script type="text/javascript">
 
-    var name = window.prompt("あなたの名前はなんですか？")
+    var name = window.prompt("あなたの名前はなんですか？");
 
-    document.write(name);
+    if ( (name == "") || (name == "null") ) {
+      name = window.prompt("名前を入力し、okをクリックしてください。");
+    }
+      document.write(name);
 
     </script>
 
