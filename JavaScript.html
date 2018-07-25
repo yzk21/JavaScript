@@ -5,13 +5,12 @@
 
     <script type="text/javascript">
 
-    //  i=0 iが10になるまで　繰り返すたびに+1される
-    for ( var i=0 ; i<10 ; i++ ){
-      //今、iが何の数なのか表示できる　iの中を表示する
-      document.write (i+" ")
-      document.write ("Hello world" +"<br />")
+    var country = new Array ("日本","アメリカ","中国","ロシア");
 
-    }
+     for (var i=0; i<country.length; i++){
+       document.write(country[i] + "<br />");
+     }
+
 
     </script>
 
